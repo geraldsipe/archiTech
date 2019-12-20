@@ -1,0 +1,17 @@
+c:\users\gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\bin\Debug\ArchiTech.exe.config
+c:\users\gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\bin\Debug\ArchiTech.exe
+c:\users\gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\bin\Debug\ArchiTech.pdb
+c:\users\gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.csprojResolveAssemblyReference.cache
+c:\users\gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.Properties.Resources.resources
+c:\users\gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.csproj.GenerateResource.Cache
+c:\users\gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.exe
+c:\users\gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.pdb
+c:\users\gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.ArchiTechForm.resources
+C:\Users\Gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.StructuralMembersForm.resources
+C:\Users\Gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.ArchiTechFunctions.resources
+C:\Users\Gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\bin\Debug\ArchiTech.exe.manifest
+C:\Users\Gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\bin\Debug\ArchiTech.application
+C:\Users\Gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.exe.manifest
+C:\Users\Gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.application
+C:\Users\Gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.OverallResults.resources
+C:\Users\Gerald\documents\visual studio 2013\Projects\ArchiTech\ArchiTech\obj\Debug\ArchiTech.Suppliers.resources

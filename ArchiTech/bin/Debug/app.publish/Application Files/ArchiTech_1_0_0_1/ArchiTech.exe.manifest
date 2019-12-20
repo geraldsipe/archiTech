@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ArchiTech.exe" version="1.0.0.1" publicKeyToken="c3a9bcb3ca97b8d8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ArchiTech" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ArchiTech.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ArchiTech.exe" size="187904">
+      <assemblyIdentity name="ArchiTech" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>X0+OJ825knD8gjnImVilGgf5uECGsi7qJn6QcViBSVU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ArchiTech.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GERALD-DESKTOP\Gerald" issuerKeyHash="dd51ddf8f79c50feef336dd1a3c86d41de406bb1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>e+KxILWbHagO8i7T+9+P/4UcjfVFfWnSb2R/wK8rotY=</DigestValue></Reference></SignedInfo><SignatureValue>qiXkThSfXo1nf1LJUlsKixA2oOrzdOGsevlHitU2y845PnVdPBOqnENbx0GTJAlSyehCKfPxNN7KJq25mcExP+8ndofKKRhWb9yvOlf0Gy/7ZagGo/j0+xPgdnv+Oz+BM4bt/2FvMhBJ2+H7l4jeakkjyxMontgdiMm77vbxy7c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s7TbvxMPzVywWP+LiNMAAuxt73BdBXFzmtPcV52xqLGEuX2ui0dIaHAJ0Y5FEuQyOZURcDZQlDc2PQPwZL2AOxuidJJo5gjCJE428BcWbdhqbBBsCBD+fsg4ugSBPHG1MOrjVJijvI1FB6vuAXmPHpmn2AfOLABD1Bdx15BrqWk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d6a22bafc07f646fd2697d45f58d1c85ff8fdffbd32ef20ea81d9bb520b1e27b" Description="" Url=""><as:assemblyIdentity name="ArchiTech.exe" version="1.0.0.1" publicKeyToken="c3a9bcb3ca97b8d8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GERALD-DESKTOP\Gerald</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HH467pAuSFAJnkfMp5UqMryPmihVZS219IQ/21foHCY=</DigestValue></Reference></SignedInfo><SignatureValue>Y8FOI3isYZzzE56Cs/gHRcTUI2QTCgGYUo1PYyugMrpsCN7tfYQiG1m3H4CohjyGdMeLEFKgNoNAGKWrYGCnwwvaCqgICPfS3Eck0mielXPr8gITfa66XfMtydUxHUI4tt7PokTDOATNJqnjStl4lNK22APvZkPKx5o0GmtSj9s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s7TbvxMPzVywWP+LiNMAAuxt73BdBXFzmtPcV52xqLGEuX2ui0dIaHAJ0Y5FEuQyOZURcDZQlDc2PQPwZL2AOxuidJJo5gjCJE428BcWbdhqbBBsCBD+fsg4ugSBPHG1MOrjVJijvI1FB6vuAXmPHpmn2AfOLABD1Bdx15BrqWk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQPoR13Vj61o9MuFuEMBYiajANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARwBFAFIAQQBMAEQALQBEAEUAUwBLAFQATwBQAFwARwBlAHIAYQBsAGQwHhcNMTkxMjA0MTAxMjA5WhcNMjAxMjAzMTYxMjA5WjA1MTMwMQYDVQQDHioARwBFAFIAQQBMAEQALQBEAEUAUwBLAFQATwBQAFwARwBlAHIAYQBsAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALO0278TD81csFj/i4jTAALsbe9wXQVxc5rT3FedsaixhLl9rotHSGhwCdGORRLkMjmVEXA2UJQ3Nj0D8GS9gDsbonSSaOYIwiRONvAXFm3YamwQbAgQ/n7IOLoEgTxxtTDq41SYo7yNRQer7gF5jx6Zp9gHziwAQ9QXcdeQa6lpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAlnasgL0da6gkyJAAd+r3iwT8V4d+qBc1QghFRTIZeiMY28SEXEZmRrzBsisR+ae4WYf9TSaZyozdfNKR+9mvmv0HFo4qwNvrS7Mtz9vY/6ybIi4nshQsutl6naI0EAzTokwyWxWePzyikxMjsHbEWQnDEhcHJn0825xl7+jtGzU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
